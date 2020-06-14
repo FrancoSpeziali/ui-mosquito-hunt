@@ -4,14 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon assignments.js",
+    "start": "live-server",
     "eslint": "eslint *.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "colors": "^1.4.0",
-    "eslint": "^7.2.0",
-    "nodemon": "^2.0.4"
+    "live-server": "1.2.1",
+    "eslint": "^7.2.0"
   }
 }
